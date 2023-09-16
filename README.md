@@ -23,3 +23,22 @@ This Python program is designed to synchronize two folders, a source folder, and
    python -m venv env
    source env/bin/activate  # On macOS/Linux
    .\env\Scripts\activate  # On Windows
+
+## Install dependencies (if any) or run the program directly:
+
+bash
+Copy code
+python folder_synchronizer.py source_folder replica_folder sync_interval_in_seconds log_file.log
+source_folder: Path to the source folder.
+replica_folder: Path to the replica folder.
+sync_interval_in_seconds: Synchronization interval in seconds.
+log_file: Path to the log file.
+Follow the prompts to perform folder synchronization.
+
+## Requirements
+This program is written in Python and does not have any external dependencies beyond the Python standard library.
+
+## Contributing
+Feel free to contribute to this project by opening issues or creating pull requests. Your feedback and contributions are highly appreciated!
+
+-Nima Thing
